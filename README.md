@@ -7,35 +7,8 @@
 <!-- Centered animated banner -->
 <p align="center">
   <img src="./assets/layal-banner.svg" width="100%" alt="Hi, I'm Layal — CS Honors @ Purdue Fort Wayne">
-</p>
+</p> 
 
----
-
-### 👋 About Me
-Hi, I'm Layal! I’m a CS Honors student at Purdue Fort Wayne.  
-This README is where I share my projects, coursework, and interests in computer science. 🚀
-
----
-
-### 🔧 Technologies & Tools
-- Languages: C, Java, Python, JavaScript  
-- Tools: Git, Linux/Unix, IntelliJ, VS Code  
-- Interests: Data Structures, Computer Architecture, Physics, AI  
-
----
-
-### 📚 Current Work
-- CS26000: Data Structures  
-- CS23200: C & Unix Programming  
-- CS27100: Computer Architecture (with Honors paper option)  
-- PHYS22000: General Physics I  
-- CS30600: Computers in Society  
-
----
-
-### 🌐 Connect With Me
-- [LinkedIn](https://linkedin.com)  
-- [Email](mailto:your-email@example.com)  
 
 
 ## 🍒 About Me
@@ -59,6 +32,7 @@ This README is where I share my projects, coursework, and interests in computer 
   <img src="https://img.shields.io/badge/Git-e60000?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/IntelliJ-990000?style=for-the-badge&logo=intellijidea&logoColor=white" />
   <img src="https://img.shields.io/badge/Eclipse-cc0000?style=for-the-badge&logo=eclipseide&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel-b30000?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
 </p>
 
 ---
@@ -83,35 +57,16 @@ This README is where I share my projects, coursework, and interests in computer 
 
 ## 🔗 Quick Links  
 
-<p align="center" style="font-family:Segoe UI, sans-serif; font-size:16px;">
-
-  <!-- Projects -->
-  <a href="https://github.com/yourusername/CS-Portfolio" target="_blank"
-     style="display:inline-block; margin:6px; padding:10px 18px; 
-            background:linear-gradient(135deg, #ff4d4d, #cc0000, #990000); 
-            color:#fff; font-weight:600; text-decoration:none; 
-            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
-    🚀 Projects: CS-Portfolio
+<p align="center">
+  <a href="https://github.com/layalalsowayigh/CS-Portfolio" target="_blank">
+    <img src="https://img.shields.io/badge/_Projects-ff4d4d?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/>
   </a>
-
-  <!-- Email -->
-  <a href="mailto:Layal.alsowayigh@icloud.com"
-     style="display:inline-block; margin:6px; padding:10px 18px; 
-            background:linear-gradient(135deg, #ff9999, #ff4d4d, #cc0000); 
-            color:#fff; font-weight:600; text-decoration:none; 
-            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
-    📧 Email Me
+  <a href="mailto:Layal.alsowayigh@icloud.com">
+    <img src="https://img.shields.io/badge/_Email_Me-cc0000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me"/>
   </a>
-
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/layalalsowayigh" target="_blank"
-     style="display:inline-block; margin:6px; padding:10px 18px; 
-            background:linear-gradient(135deg, #ff6666, #cc0000, #7a0000); 
-            color:#fff; font-weight:600; text-decoration:none; 
-            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
-    💼 LinkedIn
+  <a href="https://www.linkedin.com/in/layalalsowayigh" target="_blank">
+    <img src="https://img.shields.io/badge/_LinkedIn-7a0000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-
 </p>
 
 
