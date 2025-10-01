@@ -1,58 +1,36 @@
+<!-- Centered animated banner -->
 <p align="center">
-  <!-- Animated red title (pure SVG; no CSS/JS) -->
-  <svg viewBox="0 0 1200 150" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hi, I'm Layal — CS Honors @ Purdue Fort Wayne">
-    <defs>
-      <!-- Shimmering red gradient -->
-      <linearGradient id="redGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-        <stop offset="0"   stop-color="#ff4d4d"/>
-        <stop offset="0.5" stop-color="#cc0000"/>
-        <stop offset="1"   stop-color="#990000"/>
-        <animate attributeName="x1" values="0;-300;0" dur="9s" repeatCount="indefinite"/>
-        <animate attributeName="x2" values="1200;900;1200" dur="9s" repeatCount="indefinite"/>
-      </linearGradient>
-
-      <!-- Darker stroke gradient -->
-      <linearGradient id="strokeGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#7a0000"/>
-        <stop offset="1" stop-color="#cc0000"/>
-      </linearGradient>
-
-      <!-- Soft shadow -->
-      <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="b"/>
-        <feOffset in="b" dx="0" dy="2" result="o"/>
-        <feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
-      </filter>
-    </defs>
-
-    <!-- OUTLINE draws on -->
-    <text x="50%" y="58%" text-anchor="middle"
-          font-size="34"
-          font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif"
-          fill="none" stroke="url(#strokeGrad)" stroke-width="2.6"
-          filter="url(#shadow)"
-          stroke-dasharray="1000" stroke-dashoffset="1000">
-      Hi, I'm Layal — CS Honors @ Purdue Fort Wayne
-      <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="2s" fill="freeze"/>
-    </text>
-
-    <!-- FILL shimmers + gentle pulse -->
-    <g transform="translate(0,0)">
-      <text x="50%" y="58%" text-anchor="middle"
-            font-size="34"
-            font-family="Segoe UI, system-ui, -apple-system, Arial, sans-serif"
-            fill="url(#redGrad)" fill-opacity="0.95">
-        Hi, I'm Layal — CS Honors @ Purdue Fort Wayne
-        <animate attributeName="fill-opacity" values="0.9;1;0.9" dur="4s" repeatCount="indefinite"/>
-      </text>
-      <animateTransform attributeName="transform" attributeType="XML"
-                        type="scale" values="1;1.03;1" dur="5s"
-                        additive="replace" repeatCount="indefinite"/>
-    </g>
-  </svg>
+  <img src="./assets/layal-banner.svg" width="100%" alt="Hi, I'm Layal — CS Honors @ Purdue Fort Wayne">
 </p>
 
 ---
+
+### 👋 About Me
+Hi, I'm Layal! I’m a CS Honors student at Purdue Fort Wayne.  
+This README is where I share my projects, coursework, and interests in computer science. 🚀
+
+---
+
+### 🔧 Technologies & Tools
+- Languages: C, Java, Python, JavaScript  
+- Tools: Git, Linux/Unix, IntelliJ, VS Code  
+- Interests: Data Structures, Computer Architecture, Physics, AI  
+
+---
+
+### 📚 Current Work
+- CS26000: Data Structures  
+- CS23200: C & Unix Programming  
+- CS27100: Computer Architecture (with Honors paper option)  
+- PHYS22000: General Physics I  
+- CS30600: Computers in Society  
+
+---
+
+### 🌐 Connect With Me
+- [LinkedIn](https://linkedin.com)  
+- [Email](mailto:your-email@example.com)  
+
 
 ## 🍒 About Me
 - **Computer Science Honors Student**, Purdue University Fort Wayne  
@@ -97,11 +75,37 @@
 
 ---
 
-## 🔗 Quick Links
-- **Projects:** [CS-Portfolio](https://github.com/LayalAlsowayigh/CS-Portfolio)  
-- **Email:** [Layal.alsowayigh@icloud.com](mailto:Layal.alsowayigh@icloud.com)  
-- **LinkedIn:** [linkedin.com/in/layalalsowayigh](https://www.linkedin.com/in/layalalsowayigh)
+## 🔗 Quick Links  
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LayalAlsowayigh&style=flat-square&color=b30000" alt="profile views" />
+<p align="center" style="font-family:Segoe UI, sans-serif; font-size:16px;">
+
+  <!-- Projects -->
+  <a href="https://github.com/yourusername/CS-Portfolio" target="_blank"
+     style="display:inline-block; margin:6px; padding:10px 18px; 
+            background:linear-gradient(135deg, #ff4d4d, #cc0000, #990000); 
+            color:#fff; font-weight:600; text-decoration:none; 
+            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
+    🚀 Projects: CS-Portfolio
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:Layal.alsowayigh@icloud.com"
+     style="display:inline-block; margin:6px; padding:10px 18px; 
+            background:linear-gradient(135deg, #ff9999, #ff4d4d, #cc0000); 
+            color:#fff; font-weight:600; text-decoration:none; 
+            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
+    📧 Email Me
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/layalalsowayigh" target="_blank"
+     style="display:inline-block; margin:6px; padding:10px 18px; 
+            background:linear-gradient(135deg, #ff6666, #cc0000, #7a0000); 
+            color:#fff; font-weight:600; text-decoration:none; 
+            border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.25);">
+    💼 LinkedIn
+  </a>
+
 </p>
+
+
