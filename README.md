@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./assets/header.jpg" alt="Layal Alsowayigh Banner" width="100%">
+</p>
+
+
+
 <!-- Centered animated banner -->
 <p align="center">
   <img src="./assets/layal-banner.svg" width="100%" alt="Hi, I'm Layal — CS Honors @ Purdue Fort Wayne">
